@@ -1,0 +1,263 @@
+
+
+/* .writeFormGroup{
+     text-align: center;
+}
+
+
+
+.input{
+  margin: 1rem 4rem 1rem 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid rgb(154, 154, 154);
+}
+
+#date{
+  margin-left: 5rem;
+}
+
+#image{
+  margin-left: 16%;
+}
+
+#fileInput{
+  padding: 0.5rem 0.75rem;
+  border: none;
+}
+
+textarea{
+  width: 75%;
+  margin: 0.5rem auto;
+  resize: vertical;
+  outline: none;
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 3px;
+  height: 60px;
+}
+
+label{
+  font-size: 1.5rem;
+}
+
+select{
+  padding: 0.5rem 0.05rem;
+  font-size: 1.5rem;
+  text-align: center;
+  outline: none;
+  margin-left: 1rem;
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 3px;
+}
+
+#blog{
+  margin-top: 1.5rem;
+  margin-bottom:0;
+}
+
+.writeSubmit{
+  background-color: rgb(4, 4, 11);
+  color:white;
+  font-size:26px;
+  border-radius:20px;
+} */
+
+
+.write2 {
+   text-align: center;
+}
+.write3{
+  justify-content: center;
+   align-items: center;
+}
+
+.write2 img{
+  margin-top: 25px;
+  width:100%;
+  border-radius:10px;
+  height:350px;
+}
+ .writeForm{
+  width:100%;
+  justify-content: center;
+   align-items: center;
+  
+ }
+
+.writeInput{
+   background-color: white;
+   width:50%;
+   margin-top: 20px;
+   border-radius: 10px;
+   height:50px;
+   
+   transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+   /* display: flex; */
+}
+
+.writeInput label{
+  font-size: 24px;
+  font-family: 'lora';
+  font-weight: 700;
+  margin-left:10px;
+}
+
+.writeInput input{
+  border:none;
+  outline: none;
+  font-size: 24px;
+  font-family: 'lora';
+  font-weight: 700;
+  width:80%;
+  
+}
+
+.writeTextArea{
+  width:100%;
+  font-size: 24px;
+  font-family: 'Oswald';
+  font-weight: 700;
+  margin-top:10px;
+  border-radius: 10px;
+  height:600px;
+  resize: none;
+  padding:10px;
+  border:none;
+  outline: none;
+  transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.authorName{
+  background-color: white;
+   width:40%;
+   margin-top: 20px;
+   border-radius: 10px;
+   height:50px;
+   padding-top:5px;
+   transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.authorName label{
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.authorName input{
+  width:60%;
+  border:none;
+  outline: none;
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+}
+
+.createdAt{
+  background-color: white;
+  width:40%;
+  margin-top: 20px;
+  border-radius: 10px;
+  height:50px;
+  padding-top:5px;
+  transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.createdAt label{
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+  margin-left:10px;
+  margin-right:20px;
+}
+
+.createdAt input{
+  width:60%;
+  border:none;
+  outline: none;
+  font-size: 22px;
+  font-family: 'lora';
+}
+
+.cat{
+  background-color: white;
+  width:40%;
+  margin-top: 20px;
+  border-radius: 10px;
+  height:50px;
+  padding-top:10px;
+  transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.cat label{
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+  margin-left:10px;
+  margin-right:20px;
+}
+
+.cat select{
+  border:none;
+  outline:none;
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+}
+
+.writeSubmit{
+  margin-top:20px;
+  
+}
+
+.writeSubmit button{
+  border:none;
+  outline:none;
+  font-size: 35px;
+  font-family: 'lora';
+  font-weight: 700;
+  background-color:black;
+  border-radius: 10px;
+  padding:10px;
+  transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.image{
+  background-color: white;
+  width:50%;
+  margin-top: 20px;
+  border-radius: 10px;
+  height:50px;
+  padding-top:10px;
+  transition:0.5s ease-in;
+   box-shadow:  rgb(38, 57, 77) 0px 0px 16px;
+}
+
+.image label{
+  font-size: 22px;
+  font-family: 'lora';
+  font-weight: 700;
+  margin-left:10px;
+  margin-right:20px;
+}
+
+.image input{
+  width:60%;
+  border:none;
+  outline: none;
+  font-size: 18px;
+  font-family: 'lora';
+}
+
+.writeInput:hover,.image:hover,.writeSubmit button:hover,.cat:hover,.createdAt:hover,
+.authorName:hover,.writeTextArea:hover{
+  transform: scale(1.07);
+}

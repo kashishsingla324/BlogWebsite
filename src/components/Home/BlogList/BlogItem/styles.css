@@ -1,0 +1,116 @@
+.blogItem-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 0.4s;
+    cursor:pointer;
+     /* background-color: #a9a9a9; */
+     height: 250px;
+     transform-style: preserve-3d;
+     background-color: black;
+     border-radius: 20px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transition: 0.5s ease-in-out;
+     /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  }
+  .blogItem-wrap:hover{
+    height:490px;
+    transform: scale(1.07);
+  }
+ 
+  .blogItem-wrap h3 {
+    margin: 0.5rem 0 1rem 1.2rem;
+    flex: 1;
+    color:white;
+    font-size:24px;
+   font-family:'varena'
+  }
+  
+  .blogItem-desc {
+    position: relative;
+    max-height: 78px;
+    overflow: hidden;
+    padding-right: 0.6rem;
+    font-size: 13.9px;
+    color: #a9a9a9;
+    margin-left:15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+  }
+  
+  .blogItem-desc::before {
+    position: absolute;
+    content: '...';
+    font-size:20px;
+    bottom: 0;
+    right: 0;
+    margin-right:5px;
+  }
+  
+  .blogItem-wrap footer {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+  
+  .blogItem-link {
+    text-decoration: none;
+    color: inherit;
+    background-color: white;
+    color:black;
+    font-size:24px;
+    border-radius: 5px;
+    margin-right:10px;
+    margin-top:15px;
+    padding:3px;
+    font-family:'Lora'
+  }
+  
+  .blogItem-author {
+    display: flex;
+    align-items: center;
+    /* color:aquamarine */
+  }
+  
+  .blogItem-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-left:0.9rem;
+  }
+  
+  .blogItem-author p {
+    font-size: 1.2rem;
+    color: #a9a9a9;
+    font-weight: 600;
+  }
+
+  .blogItem-author h6{
+    font-size: 1.6rem;
+    color: #a9a9a9;
+    font-weight: 600;
+  }
+
+  .blogItem-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+  }
+
+  
+.content{
+  opacity: 0;
+}
+
+.blogItem-wrap:hover > .content{
+  height:400px;
+  opacity:1;
+}
+
+  
